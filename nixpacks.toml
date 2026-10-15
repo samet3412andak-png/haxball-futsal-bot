@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ['nodejs-18_x', 'chromium', 'glib', 'nss', 'nspr', 'atk', 'cups', 'dbus', 'gdk-pixbuf', 'gtk3', 'pango', 'cairo', 'xorg.libX11', 'xorg.libXcomposite', 'xorg.libXdamage', 'xorg.libXext', 'xorg.libXfixes', 'xorg.libXrandr', 'mesa', 'alsa-lib']
+
+[phases.install]
+cmds = ['npm install']
+
+[start]
+cmd = 'node index.js'
