@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "7/24 Futsal Haxball Botu",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "haxball-headless-api": "^1.0.0"
